@@ -1,0 +1,14 @@
+= Demo of Hibernate Statistics Test with Quarkus
+
+Demonstrates the usage of Hibernate statistics for SQL regression testing as suggested in https://www.codecentric.de/wissens-hub/blog/count-your-queries-repository-integration-tests-hibernate-statistics[this] blog post by Kevin Peters, but in *Quarkus*.
+
+To run it, simply start it with:
+
+[source,bash]
+----
+mvn quarkus:dev
+----
+
+Then hit `r` at the prompt to start continuous testing.
+
+And `q` to quit.
