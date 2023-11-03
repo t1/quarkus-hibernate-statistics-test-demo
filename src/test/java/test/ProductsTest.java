@@ -79,6 +79,7 @@ class ProductsTest {
         then(statistics().getEntityLoadCount()).isEqualTo(6);
         then(statistics().getQueryExecutionCount()).isOne();
         then(statistics().getEntityFetchCount()).isOne();
+        then(statistics().getPrepareStatementCount()).isGreaterThanOrEqualTo(1);
     }
 
     private static Product someProduct() {
