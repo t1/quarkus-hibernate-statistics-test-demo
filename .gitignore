@@ -1,3 +1,4 @@
 /target/
 /.idea/
 /schema.graphql
+/.pi/settings/jdtls.json
